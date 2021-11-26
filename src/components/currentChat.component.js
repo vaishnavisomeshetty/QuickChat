@@ -35,9 +35,9 @@ export default class CurrentChat extends Component {
         return (
             <div style={{ display: 'inline-block' }} key={chat.no}>
                 <div className={chat.type + 'Chat'}>
-                    {chat.type === 'reciever' ? <img src={this.state.selectedChat.img} alt='profile' className="rounded-circle" style={{ height: '6vh', width: '3vw' }}></img> : ''}
+                    {chat.type === 'reciever' ? <img src={this.state.selectedChat.img} alt='profile' className="rounded-circle" style={{ height: '4vh', width: '2vw' }}></img> : ''}
                     <span className={chat.type + 'chatBox'}>{chat.msg}</span>
-                    {chat.type === 'sender' ? <img src={download} alt='profile' className="rounded-circle" style={{ height: '6vh', width: '3vw' }}></img> : ''}
+                    {chat.type === 'sender' ? <img src={download} alt='profile' className="rounded-circle" style={{ height: '4vh', width: '2vw' }}></img> : ''}
                 </div>
             </div>
         )
