@@ -1,0 +1,35 @@
+.senderchatBox{
+    display: block;
+    max-width: 400px;
+    background-color: rgb(22, 20, 20);
+    color: wheat;
+    min-height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.recieverchatBox{
+    display: block;
+    max-width: 400px;
+    background-color: white;
+    color: rgb(17, 17, 17);
+    min-height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.chatCard{
+    overflow-y: scroll;
+    max-height: 95vh;
+    width: 40vw;
+    background-color: rgb(235, 235, 235) !important;
+}
+.senderChat{
+    float: right;
+    padding: 20px 10px 20px 0;
+}
+.recieverChat{
+    float: left;
+    padding: 20px 0 20px 10px;
+}

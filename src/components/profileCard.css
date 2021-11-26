@@ -1,0 +1,14 @@
+.profileImage{
+    height: 20vh;
+    width: 10vw !important;
+    margin: 3% 0 0 10%;
+    
+}
+.profilecard{
+    text-align: center;
+    position: relative;
+    width: 30vh;
+    height: 35vh;
+    border-radius: 10px !important;
+    background-color: rgb(240, 248, 255) !important;
+}
